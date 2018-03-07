@@ -1,0 +1,30 @@
+{
+  "name": "learn-unit-test",
+  "version": "1.0.0",
+  "description": "learn unit test ",
+  "main": "index.js",
+  "scripts": {
+    "unitdev": "jest --config test/jest.conf.js -o --watch",
+    "unit": "jest --config test/jest.conf.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuoqi-chen/learn-unit-test.git"
+  },
+  "keywords": [
+    "jest",
+    "unittest"
+  ],
+  "author": "zhuoqi_chen@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuoqi-chen/learn-unit-test/issues"
+  },
+  "homepage": "https://github.com/zhuoqi-chen/learn-unit-test#readme",
+  "devDependencies": {
+    "babel-jest": "^22.4.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2"
+  }
+}
